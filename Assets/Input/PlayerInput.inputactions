@@ -1,24 +1,24 @@
 {
     "version": 1,
-    "name": "Player Input",
+    "name": "PlayerInput",
     "maps": [
         {
-            "name": "On Foot",
-            "id": "a34efde8-4701-43df-b2bb-3cc980da09ab",
+            "name": "OnFoot",
+            "id": "3820c23a-fa32-45c0-bd54-2b235935d3bc",
             "actions": [
                 {
                     "name": "Movement",
-                    "type": "Button",
-                    "id": "66cad215-8b73-491c-9e0e-19d1dd879eb4",
+                    "type": "Value",
+                    "id": "f80b9f3b-7fd4-4bf7-95d8-876d67bead26",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Jump",
                     "type": "Button",
-                    "id": "8b5c2aa2-6b67-4178-829d-9d28601d1cc1",
+                    "id": "5a007e64-3dc1-4f7d-b11f-44c39d39aac0",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -28,7 +28,7 @@
             "bindings": [
                 {
                     "name": "WASD",
-                    "id": "e5d6b1a4-9488-4487-8751-34a90ae83906",
+                    "id": "fe2bdf56-f436-4e81-b2b7-995be0e86834",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -38,8 +38,8 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Up",
-                    "id": "e5f41697-6e40-491d-92f8-c247afcf2e3e",
+                    "name": "up",
+                    "id": "82bcac14-18af-4d79-8846-d421a6c1b4fa",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -49,8 +49,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Down",
-                    "id": "f6a00dae-2e5a-4ece-9bd7-d71bd876ba2a",
+                    "name": "down",
+                    "id": "cd48cb9a-0547-47d6-9cc5-49e063b3c519",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -60,8 +60,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Left",
-                    "id": "21e9192a-d375-43dd-a713-48a2109f55d4",
+                    "name": "left",
+                    "id": "67f8aef8-c6b8-4f34-a462-8a9f32d9ccc5",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -71,8 +71,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Right",
-                    "id": "6c1fc1cc-eb36-482d-a171-ffb97c82396a",
+                    "name": "right",
+                    "id": "3da191e2-a9bc-4872-ac1e-16fb81f0db1d",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -83,7 +83,7 @@
                 },
                 {
                     "name": "LeftStick",
-                    "id": "8c65cee5-0f2b-4918-a591-c809652cf63d",
+                    "id": "b09e5062-74a2-41b4-be76-6ce586483725",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -93,8 +93,8 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "Up",
-                    "id": "c6fcb0b7-0420-4c5f-80a6-a6764d823c72",
+                    "name": "up",
+                    "id": "df36c1e9-d9fb-4edc-9dfe-eeb1aa506b97",
                     "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
@@ -104,8 +104,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Down",
-                    "id": "37fe85d5-8ea1-418c-9256-1eb3c8027925",
+                    "name": "down",
+                    "id": "bb33be48-a26b-4a8a-8ff5-b09d561892e5",
                     "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
@@ -115,8 +115,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Left",
-                    "id": "0c4149a0-5b29-4e24-bc23-721885306d9a",
+                    "name": "left",
+                    "id": "44cb1ba2-75d5-4b2a-9cb9-912d7de38c71",
                     "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
@@ -126,8 +126,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Right",
-                    "id": "ef8c4231-da4f-4605-95cd-d792e4482937",
+                    "name": "right",
+                    "id": "fd88c164-f222-4436-accf-ca3c1be93fbb",
                     "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
@@ -138,7 +138,7 @@
                 },
                 {
                     "name": "",
-                    "id": "13403726-abff-4c85-834e-8839087df6eb",
+                    "id": "1d0799e4-aedf-40b7-9c04-357993efdddd",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -149,7 +149,7 @@
                 },
                 {
                     "name": "",
-                    "id": "f4ff2d73-1007-4d67-8c5a-5d51dca560bf",
+                    "id": "781e6e02-7ae0-4a08-94a2-324497de14aa",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
